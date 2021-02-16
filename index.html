@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="generator" content="Site Designer 4.0.3285">
+  <meta name="description" content="This is the Kit Kat Theme">
+  <title>Kit Kat Theme</title>
+  <link rel="stylesheet" href="css/foundation.min.css">
+  <link rel="stylesheet" href="css/wireframe-theme.min.css">
+  <link rel="icon" href="./images/footprints/footprint-01.png" type="image/png">
+  <script>document.createElement( "picture" );</script>
+  <script class="picturefill" async="async" src="js/picturefill.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chelsea+Market%7CRoboto">
+</head>
+
+<body class="no-js">
+  <div class="container header-container" id="top">
+    <div class="container menu-container">
+      <a class="link-text nav-link smooth-scroll" href="index.html#adoption">For adoption</a>
+      <a class="link-text nav-link smooth-scroll" href="info.html">Info</a>
+      <a class="link-text nav-link smooth-scroll" href="#contact">Contact</a>
+    </div>
+  </div>
+  <div class="container cats-for-adoption-wrapper" id="adoption">
+    <div class="container info-container"><a href="#" class="responsive-picture picture-link-1"><picture><img alt="Cat For Adoption" src="./images/cats/cat-1.jpg"></picture></a>
+      <h2 class="name"><span class="white">Violet by</span> Ella Mullins</h2>
+      <p class="paragraph bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.</p>
+    </div>
+    <div class="container info-container"><a href="#" class="responsive-picture picture-link-1"><picture><img alt="Cat For Adoption" src="./images/cats/cat-2.jpg"></picture></a>
+      <h2 class="name"><span class="white">Lily by</span> Mark Sebastian</h2>
+      <p class="paragraph bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.</p>
+    </div>
+    <div class="container info-container"><a href="#" class="responsive-picture picture-link-1"><picture><img alt="Cat For Adoption" src="./images/cats/cat-3.jpg"></picture></a>
+      <h2 class="name"><span class="white">Doubles by</span> Sneakerdog</h2>
+      <p class="paragraph bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.</p>
+    </div>
+    <div class="container info-container"><a href="#" class="responsive-picture picture-link-1"><picture><img alt="Cat For Adoption" src="./images/cats/cat-4.jpg"></picture></a>
+      <h2 class="name"><span class="white">Miss P. Alfie by</span> ~ezs</h2>
+      <p class="paragraph bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.</p>
+    </div>
+    <div class="container info-container"><a href="#" class="responsive-picture picture-link-1"><picture><img alt="Cat For Adoption" src="./images/cats/cat-5.jpg"></picture></a>
+      <h2 class="name"><span class="white">Paulie by</span> Shoichi Masuhara</h2>
+      <p class="paragraph bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="container info-container"><a href="#" class="responsive-picture picture-link-1"><picture><img alt="Cat For Adoption" src="./images/cats/cat-6.jpg"></picture></a>
+      <h2 class="name"><span class="white">Fiona by</span> Basheer Tome<br>
+      </h2>
+      <p class="paragraph bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.</p>
+    </div>
+    <div class="container info-container"><a href="#" class="responsive-picture picture-link-1"><picture><img alt="Cat For Adoption" src="./images/cats/cat-7.jpg"></picture></a>
+      <h2 class="name"><span class="white">PePeLoLo by </span>Hery Zo</h2>
+      <p class="paragraph bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.</p>
+    </div>
+    <div class="container info-container"><a href="#" class="responsive-picture picture-link-1"><picture><img alt="Cat For Adoption" src="./images/cats/cat-8.jpg"></picture></a>
+      <h2 class="name"><span class="white">Bagheera by</span> Alexandra Z.</h2>
+      <p class="paragraph bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et metus.</p>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/outofview.js"></script>
+  <script src="js/what-input.min.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script>$(document).foundation();</script>
+<!-- SMOOTH SCROLL -->
+<script>
+$(function() {
+  $('a.smooth-scroll[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
+</body>
+
+</html>
